@@ -45,13 +45,13 @@ class _MyHomePageState extends State<MyHomePage> {
             print(DooadexRoute.name.home);
             print(HttpStatus.code.badRequest);
             print(HttpStatus.reason.badRequest);
-            print(HttpConstants.method.get);
-            print(HttpConstants.method.post);
-            print(HttpConstants.method.put);
-            print(HttpConstants.method.patch);
-            print(HttpConstants.method.delete);
-            print(HttpConstants.contentType.json);
-            print(HttpConstants.tokenType.bearer);
+            print(HttpConstant.method.get);
+            print(HttpConstant.method.post);
+            print(HttpConstant.method.put);
+            print(HttpConstant.method.patch);
+            print(HttpConstant.method.delete);
+            print(HttpConstant.contentType.json);
+            print(HttpConstant.tokenType.bearer);
           },
           child: const Text("Test"),
         ),

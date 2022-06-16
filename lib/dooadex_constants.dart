@@ -6,4 +6,4 @@ export 'src/route/dooadex_route.dart';
 
 /// Http
 export 'src/http/http_status.dart';
-export 'src/http/http_constants.dart';
+export 'src/http/http_constant.dart';

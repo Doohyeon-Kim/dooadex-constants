@@ -1,5 +1,5 @@
-class HttpConstants {
-  HttpConstants._();
+class HttpConstant {
+  HttpConstant._();
 
   // ignore: library_private_types_in_public_api
   static _ContentType contentType = _ContentType();
@@ -26,3 +26,4 @@ class _Method {
   String delete = "DELETE";
   String patch = "PATCH";
 }
+

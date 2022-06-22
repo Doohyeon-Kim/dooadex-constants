@@ -1,3 +1,3 @@
-## 0.0.3
+## 0.0.4
 
-Edit variable name.
+Remove route constant

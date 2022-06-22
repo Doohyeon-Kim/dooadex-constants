@@ -40,9 +40,9 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            DooadexRoute.init(routePath: DooadexRoute.path, namedRoute: DooadexRoute.name);
-            print(DooadexRoute.path.home);
-            print(DooadexRoute.name.home);
+            // DooadexRoute.init(routePath: DooadexRoute.path, namedRoute: DooadexRoute.name);
+            // print(DooadexRoute.path.home);
+            // print(DooadexRoute.name.home);
             print(HttpStatus.code.badRequest);
             print(HttpStatus.reason.badRequest);
             print(HttpConstant.method.get);

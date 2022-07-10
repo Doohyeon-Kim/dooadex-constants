@@ -1,8 +1,8 @@
 import 'route_path.dart';
 import 'named_route.dart';
 
-class DooadexRoute {
-  DooadexRoute._();
+class DdxRoute {
+  DdxRoute._();
 
   static RoutePath path = RoutePath();
   static NamedRoute name = NamedRoute();

@@ -1,5 +1,5 @@
-class HttpConstant {
-  HttpConstant._();
+class DdxHttpConst {
+  DdxHttpConst._();
 
   // ignore: library_private_types_in_public_api
   static _ContentType contentType = _ContentType();
@@ -8,7 +8,7 @@ class HttpConstant {
   static _TokenType tokenType = _TokenType();
 
   // ignore: library_private_types_in_public_api
-  static _Method method = _Method();
+  static Method method = Method();
 }
 
 class _ContentType {
@@ -19,7 +19,7 @@ class _TokenType {
   String bearer = "Bearer ";
 }
 
-class _Method {
+class Method {
   String get = "GET";
   String post = "POST";
   String put = "PUT";

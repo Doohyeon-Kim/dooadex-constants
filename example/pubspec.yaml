@@ -23,7 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dooadex_palette: ^0.0.2
+  dooadex_palette:
+  dooadex_logger:
 
   dooadex_constants:
     path: ../

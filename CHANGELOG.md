@@ -1,3 +1,3 @@
-## 0.0.6
+## 0.0.7
 
-Restyle: Edit typo JsonEncodingOption to JsonDecodingOption.
+Feature: Add constants for multipart.

@@ -22,14 +22,21 @@ class _TokenType {
   String bearer = "Bearer ";
 }
 
+enum HttpMethod { GET, POST, PUT, DELETE, PATCH, MULTIPART }
+
 class _Method {
-  String get = "GET";
-  String post = "POST";
-  String put = "PUT";
-  String delete = "DELETE";
-  String patch = "PATCH";
+  String get = HttpMethod.GET.name;
+  String post = HttpMethod.POST.name;
+  String put =  HttpMethod.PUT.name;
+  String delete =  HttpMethod.DELETE.name;
+  String patch =  HttpMethod.PATCH.name;
+  String multipart =  HttpMethod.MULTIPART.name;
+}
+
+enum JsonDecodingOption {
+  UTF8,
 }
 
 class _JsonDecodingOption {
-  String utf8 = "UTF-8";
+  JsonDecodingOption utf8 = JsonDecodingOption.UTF8;
 }

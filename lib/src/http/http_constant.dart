@@ -8,7 +8,10 @@ class DdxHttpConst {
   static _TokenType tokenType = _TokenType();
 
   // ignore: library_private_types_in_public_api
-  static Method method = Method();
+  static _Method method = _Method();
+
+  // ignore: library_private_types_in_public_api
+  static _JsonEncodingOption jsonEncodingOption = _JsonEncodingOption();
 }
 
 class _ContentType {
@@ -19,7 +22,7 @@ class _TokenType {
   String bearer = "Bearer ";
 }
 
-class Method {
+class _Method {
   String get = "GET";
   String post = "POST";
   String put = "PUT";
@@ -27,3 +30,6 @@ class Method {
   String patch = "PATCH";
 }
 
+class _JsonEncodingOption {
+  String utf8 = "UTF-8";
+}

@@ -1,3 +1,3 @@
-## 0.0.4
+## 0.0.5
 
-Changed Variable prefix Dooadex to Ddx.
+Add Json Encoding Option

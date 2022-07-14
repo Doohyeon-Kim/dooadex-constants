@@ -1,3 +1,3 @@
-## 0.0.5
+## 0.0.6
 
-Add Json Encoding Option
+Restyle: Edit typo JsonEncodingOption to JsonDecodingOption.

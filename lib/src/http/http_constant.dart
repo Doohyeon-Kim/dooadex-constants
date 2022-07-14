@@ -11,7 +11,7 @@ class DdxHttpConst {
   static _Method method = _Method();
 
   // ignore: library_private_types_in_public_api
-  static _JsonEncodingOption jsonEncodingOption = _JsonEncodingOption();
+  static _JsonDecodingOption jsonEncodingOption = _JsonDecodingOption();
 }
 
 class _ContentType {
@@ -30,6 +30,6 @@ class _Method {
   String patch = "PATCH";
 }
 
-class _JsonEncodingOption {
+class _JsonDecodingOption {
   String utf8 = "UTF-8";
 }

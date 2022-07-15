@@ -5,5 +5,5 @@ library dooadex_constants;
 // export 'src/route/dooadex_route.dart';
 
 /// Http
-export 'src/http/http_status.dart';
-export 'src/http/http_constant.dart';
+export 'src/http/dooadex_http_status.dart';
+export 'src/http/dooadex_http_constant.dart';

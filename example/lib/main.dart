@@ -51,6 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
             DdxLogger(DdxHttpConst.method.delete);
             DdxLogger(DdxHttpConst.contentType.json);
             DdxLogger(DdxHttpConst.tokenType.bearer);
+            DdxLogger(DdxHttpConst.jsonEncodingOption.noOption);
             DdxLogger(DdxHttpConst.jsonEncodingOption.utf8);
           },
           child: const Text("Test"),

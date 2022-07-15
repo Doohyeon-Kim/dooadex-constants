@@ -1,3 +1,3 @@
-## 0.0.7
+## 0.0.8
 
-Feature: Add constants for multipart.
+Feature: Add noOption in JsonDecodingOption.
